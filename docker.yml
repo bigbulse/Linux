@@ -1,0 +1,6 @@
+---
+- name: docker SYS265
+  hosts: docker
+  become: true
+  roles:
+    - suzuki-shunsuke.docker_ce_centos
